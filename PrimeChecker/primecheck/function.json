@@ -1,0 +1,17 @@
+{
+    "bindings": [
+        {
+            "type": "httpTrigger",
+            "authLevel": "anonymous",
+            "name": "req",
+            "direction": "in",
+            "methods": ["post","get"],
+            "route": "primeCheck"
+        },
+        {
+            "type": "http",
+            "direction": "out",
+            "name": "res"
+        }
+    ]
+}
